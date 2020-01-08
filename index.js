@@ -23,7 +23,7 @@ if (adding.addMore==="Yes"){
   userInput()
 }else{
   console.log("done");
-  cardsReady=cardsArray.join(",")
+  cardsReady=cardsArray.join("")
   html(cardsReady)
 
   
